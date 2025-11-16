@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .chains import qa_chain
+from chains import qa_chain
 
 app = FastAPI()
 

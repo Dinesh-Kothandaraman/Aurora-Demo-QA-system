@@ -2,7 +2,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
-from .config import EMBED_MODEL, GROQ_API_KEY, LLM_MODEL
+from config import EMBED_MODEL, GROQ_API_KEY, LLM_MODEL
 
 # Load FAISS store
 embedder = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
