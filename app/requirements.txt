@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+langchain
+langchain-community
+langchain-core
+langchain-groq
+sentence-transformers
+faiss-cpu
